@@ -95,10 +95,10 @@ if 'pythonanywhere' in os.getcwd():
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': '',
-            'USER': '',
-            'PASSWORD': '',  # <--- Asegúrate de poner tu contraseña real
-            'HOST': '',
+            'NAME': '1SanMartinRendon$burritos_db',
+            'USER': '1SanMartinRendon',
+            'PASSWORD': 'sebastian1990X',  # <--- Asegúrate de poner tu contraseña real
+            'HOST': '1SanMartinRendonBackend.mysql.pythonanywhere-services.com',
         }
     }
 else:
